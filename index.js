@@ -18,6 +18,7 @@ const server = http.createServer(app);
 
 const allowedOrigins = [
   'http://localhost:5173',
+  'https://notes-frontend-sk2r.vercel.app',
   'https://notes-frontend-ten-jade.vercel.app',
 ];
 
