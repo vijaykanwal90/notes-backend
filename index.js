@@ -18,7 +18,7 @@ const server = http.createServer(app);
 
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://notes-frontend-sk2r.vercel.app',
+  'https://notes-frontend-ten-jade.vercel.app',
 ];
 
 app.use(cors({
@@ -36,7 +36,7 @@ app.use(cors({
 }));
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+// app.use(express.urlencoded({ extended: true }));
 app.use((req, res, next) => {
   req.setTimeout(300000);
   res.setTimeout(300000);
