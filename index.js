@@ -18,7 +18,7 @@ const server = http.createServer(app);
 
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://multi-step-form-frontend-liart.vercel.app',
+  'https://notes-frontend-sk2r.vercel.app',
 ];
 
 app.use(cors({
